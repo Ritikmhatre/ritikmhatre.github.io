@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Projects</title>
+</head>
+
+<body>
+
+<h1>My Projects</h1>
+
+<p>Facade Design Project</p>
+<img src="images/project1.jpg" width="400">
+
+<br><br>
+
+<a href="index.html">Back to Home</a>
+
+</body>
+</html>
