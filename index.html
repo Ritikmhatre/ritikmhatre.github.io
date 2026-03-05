@@ -1,256 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ritik Mhatre | Civil Engineer | BIM Specialist</title>
-
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<title>Ritik Mhatre | Civil Engineer</title>
 
 <style>
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+body{
+font-family: Arial;
+text-align:center;
+background:#f4f4f4;
 }
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #0f172a;
-    color: #e2e8f0;
+h1{
+margin-top:60px;
 }
 
-/* NAV */
-nav {
-    background: #0f172a;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 8%;
-    position: sticky;
-    top: 0;
-    border-bottom: 1px solid #1e293b;
+button{
+padding:15px 30px;
+margin:10px;
+font-size:18px;
+background:#2c3e50;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
 }
 
-nav h2 {
-    color: #38bdf8;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 25px;
-}
-
-nav a {
-    text-decoration: none;
-    color: #e2e8f0;
-    font-size: 14px;
-}
-
-nav a:hover {
-    color: #38bdf8;
-}
-
-/* HERO */
-.hero {
-    text-align: center;
-    padding: 120px 10%;
-}
-
-.hero h1 {
-    font-size: 48px;
-    font-weight: 700;
-}
-
-.hero p {
-    margin-top: 15px;
-    color: #94a3b8;
-    font-size: 18px;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 30px;
-    padding: 12px 30px;
-    background: #3b82f6;
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    margin-right: 15px;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #2563eb;
-}
-
-.btn-outline {
-    background: transparent;
-    border: 2px solid #3b82f6;
-}
-
-/* SECTIONS */
-section {
-    padding: 80px 10%;
-    text-align: center;
-}
-
-section h2 {
-    font-size: 30px;
-    margin-bottom: 40px;
-    color: #38bdf8;
-}
-
-/* SKILLS */
-.skills {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 15px;
-}
-
-.skill {
-    background: #1e293b;
-    padding: 12px 20px;
-    border-radius: 5px;
-}
-
-/* PROJECTS */
-.projects {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
-}
-
-.project-card {
-    background: #1e293b;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: 0.3s;
-}
-
-.project-card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-}
-
-.project-card:hover {
-    transform: translateY(-6px);
-    background: #273549;
-}
-
-.project-content {
-    padding: 20px;
-}
-
-.project-content h3 {
-    margin-bottom: 10px;
-}
-
-/* CONTACT */
-.contact p {
-    margin-bottom: 15px;
-}
-
-/* FOOTER */
-footer {
-    background: #0f172a;
-    padding: 30px;
-    text-align: center;
-    color: #64748b;
-    border-top: 1px solid #1e293b;
-}
-
-@media(max-width: 768px) {
-    .hero h1 {
-        font-size: 34px;
-    }
+button:hover{
+background:#34495e;
 }
 </style>
+
 </head>
 
 <body>
 
-<nav>
-    <h2>Ritik Mhatre</h2>
-    <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+<h1>Welcome to Ritik Mhatre Portfolio</h1>
 
-<div class="hero">
-    <h1>Civil Engineer & BIM Specialist</h1>
-    <p>Delivering Accurate BIM Models, High-Quality Visualizations & Technical Documentation</p>
-    <a href="#projects" class="btn">View Projects</a>
-    <a href="mailto:ritikmhatre101@gmail.com" class="btn btn-outline">Hire Me</a>
-</div>
+<p>Civil Engineer | BIM Modeler | Designer</p>
 
-<section id="about">
-    <h2>About Me</h2>
-    <p>
-        Professional Civil Engineer specializing in Revit-based BIM modeling,
-        facade design, coordination, and high-quality architectural visualization.
-    </p>
-</section>
+<br>
 
-<section id="skills">
-    <h2>Technical Skills</h2>
-    <div class="skills">
-        <div class="skill">Revit</div>
-        <div class="skill">AutoCAD</div>
-        <div class="skill">D5 Render</div>
-        <div class="skill">Rhino</div>
-        <div class="skill">Blender</div>
-        <div class="skill">BIM Coordination</div>
-    </div>
-</section>
+<button onclick="location.href='projects.html'">Projects</button>
 
-<section id="projects">
-    <h2>Projects Created</h2>
-    <div class="projects">
+<button onclick="location.href='gallery.html'">Photo Library</button>
 
-        <div class="project-card">
-            <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e" alt="Residential Project">
-            <div class="project-content">
-                <h3>Residential BIM Model</h3>
-                <p>Complete 3D modeling with detailed drawings & documentation.</p>
-            </div>
-        </div>
+<button onclick="location.href='services.html'">Services</button>
 
-        <div class="project-card">
-            <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" alt="Facade Design">
-            <div class="project-content">
-                <h3>Facade Design Project</h3>
-                <p>Parametric facade modeling and rendering workflow.</p>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab" alt="Commercial Building">
-            <div class="project-content">
-                <h3>Commercial Building Model</h3>
-                <p>Multi-discipline coordination & clash detection.</p>
-            </div>
-        </div>
-
-    </div>
-</section>
-
-<section id="contact" class="contact">
-    <h2>Contact</h2>
-    <p>Email: ritikmhatre101@gmail.com</p>
-    <a href="mailto:ritikmhatre101@gmail.com" class="btn">Send Email</a>
-</section>
-
-<footer>
-    © 2026 Ritik Mhatre | All Rights Reserved
-</footer>
+<button onclick="location.href='contact.html'">Contact</button>
 
 </body>
 </html>
